@@ -1143,16 +1143,16 @@ function initialize(id) {
 
     var locations = [
         //point number 1
-        ['Madison Square Garden', '4 Pennsylvania Plaza, New York, NY'],
+        // ['I\'ll definitly be there one day', 'Chennai', 13.0597049, 80.22522779999997], 
 
         //point number 2
-        ['Best town ever', 'Santa Cruz', 36.986021, -122.02216399999998],
+        // ['I\'ll definitly be there one day', 'Kolkata', 22.572646, 88.36389499999996], 
 
         //point number 3 
-        ['Located in the Midwestern United States', 'Kansas'],
+        // ['I\'ll definitly be there one day', 'Mumbai', 19.0759837, 19.0759837], 
 
         //point number 4
-        ['I\'ll definitly be there one day', 'Chicago', 41.8781136, -87.62979819999998] 
+        ['I\'ll definitly be there one day', 'Delhi', 28.635308, 77.22496000000001] 
     ];
 
 /*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/

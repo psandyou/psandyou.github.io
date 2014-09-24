@@ -18,18 +18,25 @@
 		<!-- CSS
 		================================================== -->
 		<!-- Bootstrap  -->
-		<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<!-- web font  -->
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">
 
 		<!-- plugin css -->
+		<link rel="stylesheet" type="text/css" href="js-plugin/animation-framework/animate.css" />
+		<link rel="stylesheet" type="text/css" href="js-plugin/magnific-popup/magnific-popup.css" />
+		<link type="text/css" rel="stylesheet" href="js-plugin/isotope/css/style.css">
 		<link rel="stylesheet" type="text/css" href="js-plugin/flexslider/flexslider.css" />
-
+		<link rel="stylesheet" type="text/css" href="js-plugin/pageSlide/jquery.pageslide.css" />
+		<!-- Owl carousel-->
+		<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.carousel.css">
+		<link rel="stylesheet" href="js-plugin/owl.carousel/owl-carousel/owl.theme.css">
 		<!-- icon fonts -->
 		<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
 		<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
 		<!-- Custom css -->
 		<link type="text/css" rel="stylesheet" href="css/layout.css">
+		<link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
 		<link type="text/css" id="colors" rel="stylesheet" href="css/colors.css">
 		<link type="text/css" id="colors" rel="stylesheet" href="css/mystyle.css">
 		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
@@ -52,7 +59,7 @@
 					<nav class="navbar navbar-default scrollMenu" role="navigation">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-							<a class="navbar-brand" href="index.html"><img src="images/mainlogo.png"></a> </div>
+							<a class="navbar-brand" href="index.html"><img src="images/navlogo.png"></a> </div>
 							<div class="collapse navbar-collapse navbar-ex1-collapse" id="scrollTarget">
 								<ul class="nav navbar-nav pull-right">
 									<li class="active"><a href="#home"><i class="icon-home-outline"></i>Home</a> </li>
@@ -90,9 +97,9 @@
 									</ul>
 								</div> 
 							</div>
-							<!-- <div class="col-lg-5 col-sm-6 hidden-xs">
-								<img src="images/Card 1.jpg" alt="Ashley, Bootstrap website template" class="img-responsive"/>
-							</div> -->
+							<div class="col-lg-5 col-sm-6 hidden-xs">
+								<img src="images/icon.png" class="img-responsive"/>
+							</div>
 						</div>
 					</div>
 				</section>			
@@ -162,14 +169,14 @@
 								<h1>Testimonials</h1>
 								<h2 class="subTitle">Kind Words From the Happy Clients We've Been Bragging About.</h2>
 							</div>
-								<div class="clientquote">
-								  	<img src="images/testimony/image1.jpeg" width="120"height="120">
-								  	<cite>
+						
+								<div class="clientquote2">
+								  <ul id="client image"><img src="images/testimony/image1.jpeg" width="120" height="120"><cite>
 										<a>-Jigyasa Arora</a>
 										<span class ="context">HCMR, Self Employed</span>
 									</cite>
-							     		 <p> I always wanted to learn singing, as a child i use to sit on the swing with my walkman on and sing loudly without caring how i sound. After meeting Serene Ma'am and taking training under her for my vocals.. I have understood how a singers voice can vibrate and give you goosebumps. I aspire to sound like her someday. I take her correction positively because it gives me the motivation to work harder on my voice. Usually teachers are very confined into themselves with the practical techniques , but Ma'am never holds back her knowledge. She infact makes sure that you dont just work on your voice but also on your breathing in your daily life. Singing has given me a boost of self confidence which i had lost somewhere and having a teacher like Serene Ma'am is a blessing as she shares every bit of knowledge and technique she knows about singing. My experience with Ma'am so far has given me much more than a student expects out of a teacher as she is a comforting, giving, soft, gentle and motivating teacher and there is lots more to come :)
-							     		 </p>
+							      <p> I always wanted to learn singing, as a child i use to sit on the swing with my walkman on and sing loudly without caring how i sound. After meeting Serene Ma'am and taking training under her for my vocals.. I have understood how a singers voice can vibrate and give you goosebumps. I aspire to sound like her someday. I take her correction positively because it gives me the motivation to work harder on my voice. Usually teachers are very confined into themselves with the practical techniques , but Ma'am never holds back her knowledge. She infact makes sure that you dont just work on your voice but also on your breathing in your daily life. Singing has given me a boost of self confidence which i had lost somewhere and having a teacher like Serene Ma'am is a blessing as she shares every bit of knowledge and technique she knows about singing. My experience with Ma'am so far has given me much more than a student expects out of a teacher as she is a comforting, giving, soft, gentle and motivating teacher and there is lots more to come :)</p>
+							      </ul>
 							    </div><hr>
 							</div>
 						</div>
@@ -198,7 +205,69 @@
 						</div>
 					</section>
 
-		 			<section class="counter mb30">
+					
+					<section class="slice"  id="contactSlice" >
+						<div class="container">
+							<div class="row">
+
+								<div class="col-sm-12">
+								<h1 class="noSubtitle">Contact us</h1>
+							</div>
+							<div class="col-sm-12">
+								<div id="mapWrapper" class="mb30">
+							</div>
+						</div>
+								<div class="col-sm-4">
+									<h4>Address:</h4>
+									<address>
+										Delhi Vocal Coaching<br/>
+										<!-- 77 Mass. Ave., E14/E15<br/> -->
+										New Delhi, India <br/>
+									</address>
+									<h4>Phone:</h4>
+									<address>
+										+11.1234.1234<br/>
+									</address>
+								</div>
+								<form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
+
+									<div class="col-sm-4"> 
+										<div class="form-group">
+											<label for="name">Name</label>
+											<input type="text" class="form-control" name="name" id="name" placeholder="Enter name"  title="Please enter your name (at least 2 characters)"/>
+										</div>
+										<div class="form-group">
+											<label for="email">Email</label>
+											<input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address"/>
+										</div>
+										<div class="form-group">
+											<label for="phone">Phone</label>
+											<input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="form-group">
+											<label for="comments">Comments</label>
+											<textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+										</div>
+										<fieldset class="clearfix securityCheck">
+											<legend>Security</legend>
+											<div class="form-group">
+												<img src="js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification" id="verifyImg"/>
+												<input class="required form-control"  id="verify" name="verify" type="text" >
+											</div>
+										</fieldset>
+									</div>                        
+									<div class="col-md-8 col-md-offset-4">
+										<div class="result"></div>
+										<button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</section>
+
+					<section class="counter mb30">
 						<div class="container">
 							<div class="row">
 		                        <div class="col-md-12">
@@ -222,7 +291,8 @@
 								</div>
 							</div>
 						</div>
-					</section>
+					</section>	
+
 
 
 				<!-- End footer -->
@@ -237,8 +307,16 @@
 		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 		<script type="text/javascript" src="js-plugin/easing/jquery.easing.1.3.js"></script>
 		<script type="text/javascript" src="js-plugin/flexslider/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="js-plugin/isotope/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="js-plugin/neko-contact-ajax-plugin/js/jquery.form.js"></script>
+		<script type="text/javascript" src="js-plugin/neko-contact-ajax-plugin/js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js-plugin/magnific-popup/jquery.magnific-popup.min.js"></script>
 		<script type="text/javascript" src="js-plugin/parallax/js/jquery.scrollTo-1.4.3.1-min.js"></script>
 		<script type="text/javascript" src="js-plugin/parallax/js/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="js-plugin/parallax/js/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="js-plugin/pageSlide/jquery.pageslide-custom.js"></script>
+		<script type="text/javascript" src="js-plugin/jquery.sharrre-1.3.4/jquery.sharrre-1.3.4.min.js"></script>
+		<script type="text/javascript" src="js-plugin/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 
 
 		<!-- countdown -->
