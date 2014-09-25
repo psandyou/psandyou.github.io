@@ -1152,7 +1152,7 @@ function initialize(id) {
         // ['I\'ll definitly be there one day', 'Mumbai', 19.0759837, 19.0759837], 
 
         //point number 4
-        ['I\'ll definitly be there one day', 'Delhi', 28.635308, 77.22496000000001] 
+        ['I\'ll definitly be there one day', 'Delhi', 28.552384, 77.173739] 
     ];
 
 /*** DON'T CHANGE ANYTHING PASSED THIS LINE ***/
