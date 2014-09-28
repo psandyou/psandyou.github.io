@@ -37,3 +37,45 @@ font-weight: normal;
   width: 360px
   
 }
+
+#testi cite {
+font-size: 0.857em;
+font-style: normal;
+font-weight: bold;
+margin: 0 0 0 45px;
+width: 100%;
+float: right;
+}
+
+.context {
+color: #747C8A;
+font-weight: normal;
+}
+
+#imgabout
+{
+	display: block;
+  max-height: 100%
+  max-width: 100%;
+  
+}
+
+#testi-container {
+  position: relative;
+  min-height: 1px;
+  /*padding-left: 15px;*/
+  /*padding-right: 15px;*/
+}
+
+#testi {
+    /*display:block;*/
+    /*height:460px;*/
+    /*overflow:hidden;*/
+    /*margin: -10px auto 40px;*/
+    /*width: 960px;*/
+}
+
+#testi-container div, #testi-container img {
+width: 100%;
+}
+
