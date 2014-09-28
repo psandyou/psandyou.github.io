@@ -1,35 +1,6 @@
 hr { border:0; background:#fff; color:#fff; border-bottom:1px dashed #cdcdd8; clear:both; }
 
-.clientquote {
-font-size: 12pt;
-/*background: url('assets2/images/quotestart.png') no-repeat scroll left top;*/
-padding: 40px 10px 1.5em 10px;
-width: 90%;
-margin: 0 auto 1.5em auto;
-color: #333333;
-font-style: italic;
-/*border-bottom: 1px solid #9f9f9f;*/
-}
 
-.clientquote .name {
-font-style: normal;
-font-weight: bold;
-font-size: 10pt;
-}
-
-.cite {
-float: left;
-font-size: 0.857em;
-font-style: normal;
-font-weight: bold;
-margin: 0 0 0 45px;
-width: 100%;
-}
-
-.context {
-color: #747C8A;
-font-weight: normal;
-}
 .imgabout
 {
 	display: block;
@@ -50,14 +21,6 @@ float: right;
 .context {
 color: #747C8A;
 font-weight: normal;
-}
-
-#imgabout
-{
-	display: block;
-  max-height: 100%
-  max-width: 100%;
-  
 }
 
 #testi-container {
