@@ -25,11 +25,20 @@ font-weight: normal;
 
 #testi-container {
   position: relative;
-  min-height: 1px;
+  /*min-height: 1px;*/
+  height: 230px;
   padding: 4px;
   border: solid 3px #e4e4e4;
   /*padding-left: 15px;*/
   /*padding-right: 15px;*/
+}
+
+#img{
+	height: 230px;
+	width: 100%;
+}
+.testi_img{
+	height:230px;
 }
 
 #testi {
