@@ -1,4 +1,11 @@
-hr { border:0; background:#fff; color:#fff; border-bottom:1px dashed #cdcdd8; clear:both; }
+hr {
+	 border:0; 
+	background:#fff; 
+	color:#fff; 
+	border-bottom:1px dashed #cdcdd8; 
+	clear:both;
+	margin: 1em;
+	 }
 
 
 .imgabout
